@@ -12,6 +12,7 @@ public class HistoryManager : MonoBehaviour
     private string path => Application.persistentDataPath + "/histories.json";
 
     private void Start() {
+        Debug.Log(path);
         LoadHistories();
     }
 
